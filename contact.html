@@ -29,10 +29,61 @@
     </nav>
   </header>
 
-  <main>
-    <h1>Welcome to Cantor College</h1>
-    <p>Page-specific content goes here. Replace this with the teacher's text and images for each page.</p>
+    <main>
+      <main id="main-content">
+    <section>
+      <h1>Contact Us</h1>
+    </section>
+
+    <section>
+      <h2>How to Find Us</h2>
+      <p>
+        Cantor College<br>
+        Main Street<br>
+        Sheffield<br>
+        SC4 2BB
+      </p>
+      <p>
+        Tel: (01321) 2340 235<br>
+        Fax: (01321) 2340 236<br>
+        Email: <a href="mailto:info@cantorcollege.ac.uk">info@cantorcollege.ac.uk</a>
+      </p>
+
+      <img src="images/IMG_1437.jpeg"
+         alt="Location of Cantor College building">
+    </section>
+
+    <section>
+      <h2>Send Us a Message</h2>
+
+      <form id="contact-form" novalidate>
+        <p>
+          <label for="full-name">Full Name</label><br>
+          <input type="text" id="full-name" name="full-name" autocomplete="name" required>
+        </p>
+
+        <p>
+          <label for="email">Email Address</label><br>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </p>
+
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </p>
+
+        <p id="form-feedback"></p>
+
+        <button class="button" type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section>
+      <img src="images/IMG_1441.jpeg"
+         alt="View of Arundel Street from Cantor College building">
+    </section>
   </main>
+
 
   <footer>
     <p>&copy; 2024 Cantor College. All rights reserved.</p>

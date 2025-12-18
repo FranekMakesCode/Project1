@@ -3,12 +3,12 @@
 This project is build with HTML, CSS and 'vanilla' Javascript only.
 
 ## YOUR NAME HERE
-
+Frankie Widula
 ## GITHUB REPO ADDRESS
 
 Repo located at:
 
-https://github.com/YOUR-GITHUB-NAME/YOUR-REPO-NAME
+https://github.com/FranekMakesCode/Project1
 
 If the repo is **private** ensure you add `mustbebuilt` and `tonderaiMaswera` as [contributors](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/repository-access-and-collaboration/inviting-collaborators-to-a-personal-repository).
 
